@@ -81,7 +81,7 @@ List the current remote repository for your fork,
 
 Specify a new remote upstream repository,
 
-    git remote add upstream https://github.com/duckietown/duckietown-lx
+    git remote add upstream https://github.com/affoltep/duckietown-lx
 
 Confirm that the new upstream repository was added to the list,
 
