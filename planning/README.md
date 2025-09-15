@@ -40,7 +40,7 @@ You can verify the scores of your submissions on the [Challenges website][challe
 
 Update your exercise definition and instructions using:
 
-    git pull upstream mooc2022
+    git pull upstream adas2025
 
 **NOTE:** to pull from upstream, you need to have completed the instructions in the [duckietown-lx repository README](https://github.com/duckietown/duckietown-lx/blob/mooc2022/README.md) to *fork* this repository.
 
@@ -61,7 +61,7 @@ Update your exercise definition and instructions using:
 Open the code editor by running the following command,
 
 ```
-dts code editor
+dts code editor --bind 0.0.0.0
 ```
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar
