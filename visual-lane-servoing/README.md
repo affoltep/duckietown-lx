@@ -36,7 +36,7 @@ You can verify the scores of your submissions on the [Challenge Leaderboard][lea
 
 Update your exercise definition and instructions,
 
-    git pull upstream mooc2022
+    git pull upstream adas2025
 
 **NOTE:** to pull from upstream, you need to have completed the instructions in the [duckietown-lx repository README](https://github.com/duckietown/duckietown-lx/blob/mooc2022/README.md) to *fork* this repository.
 
@@ -59,7 +59,7 @@ Update your exercise definition and instructions,
 Open the code editor by running the following command,
 
 ```
-dts code editor
+dts code editor --bind 0.0.0.0
 ```
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar
@@ -81,7 +81,7 @@ Follow the instructions on the notebook and work through the notebooks in sequen
 
 To test in simulation, use the command
 
-    $ dts code workbench --sim
+    $ dts code workbench --sim --bind 0.0.0.0
 
 There will be two URLs popping up to open in your browser: one is the direct view of the
 simulated environment. The other is VNC and only useful for some exercises, follow the instructions
