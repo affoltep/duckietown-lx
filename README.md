@@ -2,7 +2,7 @@
 <img src="./braitenberg/assets/images/dtlogo.png" alt="Duckietown Logo" width="50%">
 </p>
 
-# **Duckietown Learning Experiences (LX) - adas2025 Exercises**
+# **Duckietown Learning Experiences (LX) - BTV5411 - adas2025 Exercises**
 
 # About this repository
 
