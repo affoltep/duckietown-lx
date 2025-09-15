@@ -129,7 +129,7 @@ Update your folder definition and instructions,
 Open the code editor by running the following command,
 
 ```
-dts code editor
+dts code editor --bind 0.0.0.0
 ```
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar
@@ -151,7 +151,7 @@ Follow the instructions on the notebook and work through the notebooks in sequen
 
 To test in simulation, use the command
 
-    dts code workbench --sim
+    dts code workbench --sim --bind 0.0.0.0
 
 There will be two URLs popping up to open in your browser: one is the direct view of the
 simulated environment. The other is VNC and only useful for some exercises, follow the instructions
