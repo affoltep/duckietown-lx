@@ -38,7 +38,7 @@ You can verify the scores of your submissions on the [Challenge Leaderboard][lea
 
 Update your exercise definition and instructions,
 
-    git pull upstream mooc2022
+    git pull upstream adas2025
 
 **NOTE:** to pull from upstream, you need to have completed the instructions in the [duckietown-lx repository README](https://github.com/duckietown/duckietown-lx/blob/mooc2022/README.md) to *fork* this repository.
 
@@ -61,7 +61,7 @@ Update your exercise definition and instructions,
 Open the code editor by running the following command,
 
 ```
-dts code editor
+dts code editor --bind 0.0.0.0
 ```
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar
@@ -83,7 +83,7 @@ Follow the instructions on the notebook and work through the notebooks in sequen
 
 To test in simulation, use the command
 
-    $ dts code workbench --sim
+    $ dts code workbench --sim --bind 0.0.0.0
 
 In this case you should use the link for the VNC environment. It should look something like 
 
@@ -95,7 +95,8 @@ In this case you should use the link for the VNC environment. It should look som
 ================================================================
 ```
 
-Click on that link (note that the port number 32768 will probably be different but that's ok).
+Type in your browser http://ti-duckiesrvYOURSRVID.bfh.ch:32768, instead of 127.0.0.1
+Note that the port number 32768 will probably be different.Type in your port number instead).
 
 You will see four icons on the desktop. Two are particularly useful at this point. One is the joystick (you can 
 double-click and open one of those). When the robot is in "NORMAL_JOYSTICK_MODE," you
