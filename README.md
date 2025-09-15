@@ -2,7 +2,7 @@
 <img src="./braitenberg/assets/images/dtlogo.png" alt="Duckietown Logo" width="50%">
 </p>
 
-# **Duckietown Learning Experiences (LX) - MOOC Exercises**
+# **Duckietown Learning Experiences (LX) - adas2025 Exercises**
 
 # About this repository
 
@@ -65,7 +65,7 @@ fork: `<your_username>/duckietown-lx`
 
 Then clone your new repository, replacing your GitHub username in the command below,
 
-    git clone -b mooc2022 git@github.com:<your_username>/duckietown-lx
+    git clone -b adas2025 git@github.com:<your_username>/duckietown-lx
 
 Now, change directory to `duckietown-lx`
 
@@ -91,7 +91,7 @@ You can now push your work to your own repository using the standard GitHub work
 exercise will prompt you to pull from the upstream repository - updating your exercises to the latest Duckietown 
 version,
 
-    git pull upstream mooc2022
+    git pull upstream adas2025
 
 ## What next?
 
@@ -108,7 +108,7 @@ work to the [challenges server](https://challenges.duckietown.org/) to evaluate 
 
 Update your folder definition and instructions,
 
-    git pull upstream mooc2022
+    git pull upstream adas2025
 
 
 ## 2. Make sure your system is up-to-date
