@@ -13,8 +13,6 @@ agent's pose in the world, and tuning your own PID controller.
 This learning experience is provided by the Duckietown team and can be run on Duckiebots. Visit us at the 
 [Duckietown Website](https://www.duckietown.com) for more learning materials, documentation, and demos.
 
-For guided setup instructions, lecture content, and more related to this LX, see the [Self Driving Cars with 
-Duckietown course on EdX](https://learning.edx.org/course/course-v1:ETHx+DT-01x+3T2022/home).
 
 # 💻 🚙 About this learning experience
 
